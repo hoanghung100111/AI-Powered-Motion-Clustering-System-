@@ -7,7 +7,7 @@ This project is an AI-driven system designed to analyze and cluster complex phys
 ### Key Objectives
 
 * **Physical Feature Extraction:** Use **OpenCV** to process videos and extract essential physical parameters such as velocity, coordinates, and oscillation frequency.
-* **Intelligent Clustering:** Apply an **Autoencoder** model for dimensionality reduction and **KMeans** to automatically group similar motions into distinct clusters (e.g., steady, zigzag, spiral trajectories).
+* **Intelligent Clustering:** Apply an **Autoencoder** model for dimensionality reduction and **KMeans** to automatically group similar motions into distinct clusters (e.g., tumbling, chaotic, zigzag, spiral trajectories).
 * **Bridging Physics and AI:** Connect empirical data with machine learning models to provide new insights into fluid mechanics.
 
 ### Processing Pipeline
@@ -46,7 +46,7 @@ The project follows a clear, step-by-step workflow:
 
 ### 📈 Results
 
-The system successfully classified motion trajectories and produced distinct clusters, helping differentiate between various motion regimes like `Steady`, `Periodic (Zigzag)`, and `Chaotic`. The results demonstrate the ability of machine learning algorithms to provide new insights into classical mechanics problems.
+The system successfully classified motion trajectories and produced distinct clusters, helping differentiate between various motion regimes like `Tumbling`, `Periodic (Zigzag, Spiral)`, and `Chaotic`. The results demonstrate the ability of machine learning algorithms to provide new insights into classical mechanics problems.
 
 ### Future Directions
 
